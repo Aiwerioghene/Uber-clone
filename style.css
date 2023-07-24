@@ -1,0 +1,187 @@
+.navbar{
+    background-color: black;
+    color: white;
+}
+
+/* sign up button */
+.signup{
+    border-radius:5rem ;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+/* the line line */
+.bi-list{
+    font-size: 27px;
+    color: white;
+    padding-left: 1rem;
+}
+
+.dropdown-menu a{
+    color: black;
+}
+
+.card {
+position: absolute;
+top: 15%;
+left: 20%;
+transform: translate(-15%, 20%);
+font-family: 'Oswald', sans-serif;
+font-size: 17px ;
+border-radius: 0;
+height: 30rem;
+width: 30rem;
+background-color: white;
+}
+
+.card-body{
+background-color: white;
+}
+
+.card-link{
+color: black;
+padding-left: 2rem;
+}
+
+.card-link span{
+padding-left: 2rem;
+}
+/* the top icons inside the first icon */
+.bi-reception-4,
+.bi-cup-hot-fill,
+.bi-truck-front-fill
+{
+font-size: 27px;
+padding-left: 2rem;
+}
+
+.bi-people,
+.bi-house-door, 
+.bi-newspaper,
+.bi-people{
+font-size: 27px;
+
+}
+
+h1,h2{
+font-weight: 600;
+color: black;
+}
+
+.btn-dark, .custom-btn{
+height: 3rem;
+width:10rem;
+border-radius: 6px;
+background-color: #000000;
+color: white;
+
+}
+/* for the secon oen w image */
+.image-container {
+position: relative;
+}
+
+.uber-text {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: #000000; 
+}
+.custom-image {
+height: 350px;
+}
+/* Normal link style */
+.linky {
+color: #000; 
+text-decoration: underline; 
+
+}
+
+/* Hover style */
+.linky:hover {
+color: #000;
+text-decoration: underline 3px solid black ;
+}
+
+.first-subheading{
+font-weight: 500;
+font-size: 18px;
+}
+
+.body-words{
+font-weight: 400;
+font-size: 16;
+}
+
+footer{
+background-color: black;
+color: white;
+
+}
+
+.footer-p, h5 {
+padding-bottom: 1.4rem;
+display: block;
+}
+
+.icon1 i{
+margin-right:5rem;
+}
+
+
+
+/* mobile */
+@media (max-width: 576px) {
+
+body{
+margin: 0;
+}
+.signup{
+border-radius:5rem ;
+font-size: 0.7rem;
+font-weight: 500;
+}
+
+.btn-link{
+font-size: 0.8rem;
+font-weight: 500;
+}
+
+/* list icon at the top */
+.bi-list{
+font-size: 25px;
+color: white;
+padding-left: 1rem;
+}
+
+/* the icons below the nav */
+.bi-reception-4,
+.bi-cup-hot-fill,
+.bi-truck-front-fill{
+font-size: 20px;
+padding-left: 2rem;
+
+}
+
+span{
+padding-left: 2rem;
+}
+
+h2, h1{
+font-size: 24px;
+}
+
+.icon1 i{
+margin-right:3rem;
+}
+
+.card-text{
+font-size: 20px;
+}
+
+}
+
+
+
+
+
