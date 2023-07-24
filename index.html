@@ -60,18 +60,24 @@ background-color: white;
 
 .card-link{
     color: black;
+    padding-left: 2rem;
 }
 /* the top icons inside the first icon */
 .bi-reception-4,
 .bi-cup-hot-fill,
-.bi-truck-front-fill,
+.bi-truck-front-fill
+{
+    font-size: 27px;
+    padding-left: 2rem;
+}
+
 .bi-people,
 .bi-house-door, 
 .bi-newspaper,
  .bi-people{
     font-size: 27px;
 
-}
+ }
 
 h1,h2{
     font-weight: 600;
@@ -122,6 +128,44 @@ h1,h2{
   .body-words{
     font-weight: 400;
     font-size: 16;
+  }
+
+
+
+/* mobile */
+  @media (max-width: 576px) {
+
+body{
+  margin: 0;
+}
+.signup{
+   border-radius:5rem ;
+   font-size: 0.7rem;
+   font-weight: 500;
+ }
+
+ .btn-link{
+    font-size: 0.8rem;
+   font-weight: 500;
+ }
+
+ /* list icon at the top */
+ .bi-list{
+    font-size: 25px;
+    color: white;
+    padding-left: 1rem;
+}
+
+/* the icons below the nav */
+.bi-reception-4,
+.bi-cup-hot-fill,
+.bi-truck-front-fill{
+    font-size: 20px;
+    padding-left: 2rem;
+
+}
+
+
   }
 
 
@@ -231,7 +275,7 @@ h1,h2{
        <div class="row ">
         <div class="col-4">
             <i class="bi bi-reception-4"></i><br>
-            <a href="#" class="card-link">Drive or<br>deliver</a>
+            <a href="#" class="card-link">Drive or <br><span style="padding-left: 2rem;">deliver</span></a>
         </div>
        
             <div class="col-4">
@@ -270,7 +314,7 @@ h1,h2{
        <div class="row">
         <div class="col-4">
             <i class="bi bi-reception-4"></i><br>
-            <a href="#" class="card-link">Drive or<br>deliver</a>
+            <a href="#" class="card-link" >Drive or<br>deliver</a>
         </div>
        
             <div class="col-4">
